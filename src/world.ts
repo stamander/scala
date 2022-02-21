@@ -6,13 +6,6 @@ export default class World {
   public sayHello(elem: HTMLElement | null) {
     if (elem) {
       elem.innerText = this.message
-
-
-
-
-
-
-
     }
   }
 }
