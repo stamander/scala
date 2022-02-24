@@ -6,5 +6,8 @@
 
 
 //基本の型定義
-import { primitiveSample } from "./basic";
+import { anySample, noExistSample, primitiveSample, unknownSample } from "./basic";
+anySample();
+noExistSample();
 primitiveSample();
+unknownSample();
