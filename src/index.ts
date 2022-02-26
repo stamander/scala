@@ -13,15 +13,22 @@
 // unknownSample()
 
 
-//関数
-import { logMessage } from "./function/basic";
-import {isUserSignedIn , isUserSignedIn2,sumProductsPrice} from "./function/parameter"
+// //関数
+// import { logMessage } from "./function/basic";
+// import {isUserSignedIn , isUserSignedIn2,sumProductsPrice} from "./function/parameter"
 
-logMessage("Hello TypeScript")
+// logMessage("Hello TypeScript")
 
-isUserSignedIn('ABC', 'stamander')
-isUserSignedIn('DBC')
-isUserSignedIn2('ABC')
-const sum = sumProductsPrice(100,200,300,400,500)
+// isUserSignedIn('ABC', 'stamander')
+// isUserSignedIn('DBC')
+// isUserSignedIn2('ABC')
+// const sum = sumProductsPrice(100,200,300,400,500)
 
-console.log(sum)
+// console.log(sum)
+
+
+import objectSample from "./object/object";
+objectSample();
+
+import typeAliasSample from "./object/ailias";
+typeAliasSample();
