@@ -15,8 +15,13 @@
 
 //関数
 import { logMessage } from "./function/basic";
-import {isUserSignedIn} from "./function/parameter"
+import {isUserSignedIn , isUserSignedIn2,sumProductsPrice} from "./function/parameter"
 
 logMessage("Hello TypeScript")
 
 isUserSignedIn('ABC', 'stamander')
+isUserSignedIn('DBC')
+isUserSignedIn2('ABC')
+const sum = sumProductsPrice(100,200,300,400,500)
+
+console.log(sum)

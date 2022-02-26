@@ -27,3 +27,21 @@ export const alwaysThrowError = (message :string): never =>{
   throw new Error(message)
 
 }
+
+//呼び出しシグネチャ
+type  LogMessage = (message:string) => void
+export const logMessage6 :LogMessage = (message) => {
+  console.log("function massage6",message)
+}
+
+
+//完全な呼び出しシグネチャ
+type FullLogMassage = {
+  (message:string):void
+
+}
+
+export const logMessage7:FullLogMassage =(message) =>{
+  console.log("FunctionMessage7 ",message);
+  
+}
