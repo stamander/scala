@@ -27,8 +27,11 @@
 // console.log(sum)
 
 
-import objectSample from "./object/object";
-objectSample();
+// import objectSample from "./object/object";
+// objectSample();
 
-import typeAliasSample from "./object/ailias";
-typeAliasSample();
+// import typeAliasSample from "./object/ailias";
+// typeAliasSample();
+
+import arraySample from "./array/array";
+arraySample();
