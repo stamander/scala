@@ -35,3 +35,6 @@
 
 import arraySample from "./array/array";
 arraySample();
+
+import tupleSumple from "./array/tuple";
+tupleSumple();
