@@ -40,7 +40,20 @@ export default function genericsBasicSample(){
     return result
   }
 
-  console.log(genericStringReduce(["Make","Typescript","TRY","Again"],"a")
+  console.log("generic sample3",genericStringReduce(["Make","Typescript","TRY","Again"],""))
+
+  const genericNumberReduce: GenericReduce<number> = (array,initialValue) =>{
+    let result = initialValue
+    for(let  i= 0; i<array.length; i++){
+      result+=array[i]
+
+    }
+    return result
+  }
+
+  console.log(genericNumberReduce([-100,-200,-300,],1000))
+
+
 
 
 
