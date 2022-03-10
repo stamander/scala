@@ -26,6 +26,23 @@ export default function genericsBasicSample(){
   }
 
 
+  type GenericReduce<T> ={
+    (array:T[],initialValue:T):T
+  }
+
+
+  const genericStringReduce: GenericReduce<string> = (array,initialValue) =>{
+    let result = initialValue
+    for(let  i= 0; i<array.length; i++){
+      result+=array[i]
+
+    }
+    return result
+  }
+
+  console.log(genericStringReduce(["Make","Typescript","TRY","Again"],"a")
+
+
 
   
 }
