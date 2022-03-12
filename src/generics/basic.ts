@@ -54,6 +54,9 @@ export default function genericsBasicSample(){
   console.log(genericNumberReduce([-100,-200,-300,],1000))
 
 
+  //色々なジェネリック型の呼び出し方法
+
+
 
 
 
