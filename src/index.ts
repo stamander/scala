@@ -42,3 +42,6 @@
 
 import genericsBasicSample from "./generics/basic";
 genericsBasicSample()
+
+import genericAdvancedSample from "./generics/advanced";
+genericAdvancedSample()
