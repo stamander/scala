@@ -40,8 +40,19 @@
 // tupleSumple();
 
 
-import genericsBasicSample from "./generics/basic";
-genericsBasicSample()
+// import genericsBasicSample from "./generics/basic";
+// genericsBasicSample()
 
-import genericAdvancedSample from "./generics/advanced";
-genericAdvancedSample()
+// import genericAdvancedSample from "./generics/advanced";
+// genericAdvancedSample()
+
+
+// import callbackSample from "./asynclance/callback";
+// callbackSample()
+
+// import promiseSample from "./asynclance/promise";
+// promiseSample()
+
+
+import asyncAwaitSample from "./asynclance/asyncAwait";
+asyncAwaitSample()
